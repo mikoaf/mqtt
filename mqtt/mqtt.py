@@ -1,6 +1,6 @@
 from typing import Tuple
-from model.mqtt import MqttSender
-from model.response import Response, StatusResponse
+from model_mqtt.mqtt import MqttSender
+from model_mqtt.response import Response, StatusResponse
 from mqtt.mqttbase import MqttSend
 import paho.mqtt.client as mqtt
 

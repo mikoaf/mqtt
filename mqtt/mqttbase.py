@@ -1,6 +1,6 @@
 from abc import ABC,abstractmethod
-from model.mqtt import MqttSender
-from model.response import Response
+from model_mqtt.mqtt import MqttSender
+from model_mqtt.response import Response
 from typing import Tuple
 import asyncio
 
